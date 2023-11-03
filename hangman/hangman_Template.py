@@ -19,7 +19,7 @@ class Hangman:
         Number of lives the player has
     
     Attributes:
-    ----------
+    ----------v
     word: str
         The word to be guessed picked randomly from the word_list
     word_guessed: list
