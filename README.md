@@ -15,3 +15,5 @@ run the program and then just have fun!
 
 ## file structure
 so far ive goit the milestone2.py
+
+and something else
