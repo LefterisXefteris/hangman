@@ -22,7 +22,7 @@ class Hangman:
             self.num_letters -= 1 
         else:
             self.num_lives -= 1
-            print(f"Sorry, {guess} is not in the word.") # Use 'guess' instead of 'letter'
+            print(f"Sorry, {guess} is not in the word.") 
             print(f"You have {self.num_lives} lives left.")
             if self.num_lives == 0:
                 print("You lost!")
@@ -30,7 +30,7 @@ class Hangman:
 
     def ask_for_input(self):
         while True:
-            print(' '.join(self.word_guessed))  # Show the current state of the word
+            print(' '.join(self.word_guessed))  
             guess = input("Type a letter: ").lower()
             if guess.isalpha() and len(guess) != 1:
                 print("Invalid letter. Please, enter a single alphabetical character.")
